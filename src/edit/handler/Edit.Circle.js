@@ -30,7 +30,7 @@ L.Edit.Circle = L.Edit.CircleMarker.extend({
 		} else {
 			radius = this._map.distance(moveLatLng, latlng);
 		}
-
+		this._shape.setRadius(radius);
 		this._map.fire(L.Draw.Event.EDITRESIZE, { layer: this._shape });
 	}
 });

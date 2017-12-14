@@ -5,9 +5,10 @@ tmp/**/*
 *.iml
 _site
 *.sublime-*
-dist/*.js
-dist/*.css
-dist/*.map
+# commenting these out so that we can host from github
+# dist/*.js
+# dist/*.css
+# dist/*.map
 coverage/
 *.js.html
 .mailmap
